@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+var path = require('path');
+var cut = require('../cut_bom');
+
+var argv = process.argv;
+
+if (argv.length < 3) {
+  console.log('> cut_bom filename');
+}
+
+console.log(argv);
+
+var input = path.resolve(argv[2]);
+
+cut(input);

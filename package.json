@@ -1,0 +1,14 @@
+{
+  "name": "cut_bom",
+  "version": "0.0.1",
+  "description": "Cut the BOM for file.",
+  "main": "cut_bom.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "BOM"
+  ],
+  "author": "Jackson Tian",
+  "license": "MIT"
+}
