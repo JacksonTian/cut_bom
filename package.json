@@ -9,6 +9,9 @@
   "keywords": [
     "BOM"
   ],
+  "bin": {
+    "cut_bom": "./bin/cut_bom"
+  },
   "author": "Jackson Tian",
   "license": "MIT"
 }

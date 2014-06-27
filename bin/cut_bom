@@ -6,10 +6,9 @@ var cut = require('../cut_bom');
 var argv = process.argv;
 
 if (argv.length < 3) {
-  console.log('> cut_bom filename');
+  console.log('usage: cut_bom <filename>');
+  return;
 }
-
-console.log(argv);
 
 var input = path.resolve(argv[2]);
 
